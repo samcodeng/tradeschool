@@ -1,0 +1,611 @@
+[
+  {
+    "id": "stop_sign",
+    "category": "Regulatory",
+    "name": "STOP",
+    "meaning": "Full stop at line/crosswalk/intersection, yield before proceeding.",
+    "image": "/signs/01_stop.png",
+    "quiz": [
+      {
+        "question": "What does a standard eight-sided (octagon) red sign signify to a driver?",
+        "options": [
+          "Yield the right-of-way to cross traffic",
+          "Stop completely and proceed only when it is safe to do so",
+          "Watch for oncoming traffic ahead",
+          "A construction zone is beginning"
+        ],
+        "answer": "Stop completely and proceed only when it is safe to do so"
+      }
+    ]
+  },
+  {
+    "id": "stop_arret_bilingual",
+    "category": "Regulatory",
+    "name": "STOP ARRÊT (BILINGUAL)",
+    "meaning": "Mandatory full stop in designated bilingual regions of Ontario.",
+    "image": "/signs/02_stop_arret.png",
+    "quiz": [
+      {
+        "question": "You see a stop sign that displays both the words 'STOP' and 'ARRÊT'. What does this indicate?",
+        "options": [
+          "A standard stop sign used in bilingual or designated French-language areas in Ontario",
+          "An all-way stop intersection where everyone must stop",
+          "A temporary stop sign used only in construction zones",
+          "A railway crossing stop point"
+        ],
+        "answer": "A standard stop sign used in bilingual or designated French-language areas in Ontario"
+      }
+    ]
+  },
+  {
+    "id": "do_not_enter",
+    "category": "Prohibitory",
+    "name": "DO NOT ENTER",
+    "meaning": "Entering this roadway is strictly prohibited; typically posted at one-way street exits.",
+    "image": "/signs/03_do_not_enter.png",
+    "quiz": [
+      {
+        "question": "A regulatory sign features a solid red circle with a horizontal white bar running through the middle. What does this mean?",
+        "options": [
+          "The road is closed for construction",
+          "Do not enter this roadway",
+          "One-way traffic ends ahead",
+          "No parking on either side"
+        ],
+        "answer": "Do not enter this roadway"
+      }
+    ]
+  },
+  {
+    "id": "no_stopping_between_signs",
+    "category": "Prohibitory",
+    "name": "NO STOPPING BETWEEN SIGNS",
+    "meaning": "Stopping is strictly prohibited in the designated zone between these signs.",
+    "image": "/signs/04_no_stopping_between_signs.png",
+    "quiz": [
+      {
+        "question": "A white square sign contains a black arrow pointing downward to the left, with two smaller arrows pointing to the left and right at the bottom. It features a red circle with a diagonal slash over it. What does this indicate?",
+        "options": [
+          "No parking on either side",
+          "Do not stop in the area between the signs",
+          "Dangerous goods prohibited",
+          "No U-turn allowed"
+        ],
+        "answer": "Do not stop in the area between the signs"
+      }
+    ]
+  },
+  {
+    "id": "no_u_turn",
+    "category": "Prohibitory",
+    "name": "NO U-TURN",
+    "meaning": "Making a U-turn (reversing direction) is strictly illegal at this location.",
+    "image": "/signs/05_no_u_turn.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a solid red circle and a red diagonal slash over a black arrow looping backward in a 'U' shape. What maneuver is forbidden here?",
+        "options": [
+          "A sharp left turn",
+          "A reverse curve turn",
+          "A U-turn",
+          "Proceeding straight through the intersection"
+        ],
+        "answer": "A U-turn"
+      }
+    ]
+  },
+  {
+    "id": "no_left_turn",
+    "category": "Prohibitory",
+    "name": "NO LEFT TURN",
+    "meaning": "Turning left is strictly prohibited at this intersection or driveway.",
+    "image": "/signs/06_no_left_turn.png",
+    "quiz": [
+      {
+        "question": "A white square sign shows a black arrow pointing to the left, enclosed in a red circle with a red diagonal slash through it. What does this mean?",
+        "options": [
+          "Left turn only",
+          "No left turn permitted",
+          "Keep to the right lane",
+          "Winding road ahead to the left"
+        ],
+        "answer": "No left turn permitted"
+      }
+    ]
+  },
+  {
+    "id": "no_passing",
+    "category": "Prohibitory",
+    "name": "NO PASSING",
+    "meaning": "Overtaking or passing other vehicles on this section of the road is prohibited.",
+    "image": "/signs/07_no_passing.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a red circle and a red diagonal slash over two passenger vehicles side-by-side (one black, one red). What rule does this enforce?",
+        "options": [
+          "No parking on either side of the road",
+          "Two-way traffic ahead",
+          "No passing or overtaking another vehicle",
+          "Carpooling is mandatory"
+        ],
+        "answer": "No passing or overtaking another vehicle"
+      }
+    ]
+  },
+  {
+    "id": "no_straight_through",
+    "category": "Prohibitory",
+    "name": "NO STRAIGHT THROUGH",
+    "meaning": "Proceeding straight through this intersection is prohibited; a turn must be made.",
+    "image": "/signs/08_no_straight_through.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a black arrow pointing straight up inside a solid red circle with a red diagonal slash through it. What constraint does this place on the driver?",
+        "options": [
+          "No U-turn permitted",
+          "No left turn permitted",
+          "Do not drive through the intersection / No straight through",
+          "No right turn permitted"
+        ],
+        "answer": "Do not drive through the intersection / No straight through"
+      }
+    ]
+  },
+  {
+    "id": "bicycles_prohibited",
+    "category": "Prohibitory",
+    "name": "BICYCLES PROHIBITED",
+    "meaning": "Bicycles are completely barred from utilizing this roadway asset.",
+    "image": "/signs/09_bicycles_prohibited.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a black border and a red circle with a diagonal slash across a symbol of a bicycle. What rule does this impose?",
+        "options": [
+          "Bicycles must yield to vehicular traffic",
+          "Bicycles are strictly prohibited on this road",
+          "A bicycle crossing is ahead",
+          "A designated bicycle lane begins"
+        ],
+        "answer": "Bicycles are strictly prohibited on this road"
+      }
+    ]
+  },
+  {
+    "id": "dangerous_goods_prohibited",
+    "category": "Prohibitory",
+    "name": "DANGEROUS GOODS PROHIBITED",
+    "meaning": "Vehicles transporting dangerous goods are forbidden on this specific route.",
+    "image": "/signs/10_dangerous_goods_prohibited.png",
+    "quiz": [
+      {
+        "question": "A regulatory sign features a black box/cylinder symbol inside a red circle with a diagonal slash across it. What class of vehicles is prohibited from using this road?",
+        "options": [
+          "Heavy commercial transport trucks",
+          "Vehicles transporting dangerous goods",
+          "Farm tractors and slow-moving vehicles",
+          "Public transit buses"
+        ],
+        "answer": "Vehicles transporting dangerous goods"
+      }
+    ]
+  },
+  {
+    "id": "pedestrians_prohibited",
+    "category": "Prohibitory",
+    "name": "PEDESTRIANS PROHIBITED",
+    "meaning": "Pedestrians are forbidden from walking along or crossing the highway/ramp here.",
+    "image": "/signs/11_pedestrians_prohibited.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a red circle and a red diagonal slash over a black silhouette of a person walking. What does this signify?",
+        "options": [
+          "Watch for pedestrians ahead",
+          "Pedestrian crossover area",
+          "No pedestrians allowed on this roadway",
+          "Construction zone sidewalk closure"
+        ],
+        "answer": "No pedestrians allowed on this roadway"
+      }
+    ]
+  },
+  {
+    "id": "road_closed",
+    "category": "Prohibitory",
+    "name": "ROAD CLOSED",
+    "meaning": "The road ahead is physically closed to all public vehicular through traffic.",
+    "image": "/signs/12_road_closed.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign displays a solid red circle with a white horizontal bar, and has the explicit text 'ROAD CLOSED' written directly below it. What does this mean?",
+        "options": [
+          "The road is restricted to commercial trucks only",
+          "The road is completely closed to all through traffic",
+          "A detour route begins in 1 kilometer",
+          "The right lane ends ahead"
+        ],
+        "answer": "The road is completely closed to all through traffic"
+      }
+    ]
+  },
+  {
+    "id": "no_parking",
+    "category": "Prohibitory",
+    "name": "NO PARKING",
+    "meaning": "Parking is strictly prohibited in the designated area.",
+    "image": "/signs/13_no_parking.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a large black letter 'P' inside a solid red circle with a red diagonal slash through it. What regulation does this mark?",
+        "options": [
+          "Permit parking only",
+          "No parking permitted",
+          "No passing zone",
+          "Pedestrians only"
+        ],
+        "answer": "No parking permitted"
+      }
+    ]
+  },
+  {
+    "id": "yield",
+    "category": "Regulatory",
+    "name": "YIELD",
+    "meaning": "Slow down, prepare to stop if necessary, yield right-of-way to oncoming traffic.",
+    "image": "/signs/14_yield.png",
+    "quiz": [
+      {
+        "question": "An inverted triangle sign (pointing downward) features a thick red border and a white center. What must a driver do when approaching it?",
+        "options": [
+          "Come to a mandatory full stop in all conditions",
+          "Yield the right-of-way to traffic in the intersection or through-street",
+          "Accelerate to merge with the flow of traffic",
+          "Maintain speed as you have the automatic right-of-way"
+        ],
+        "answer": "Yield the right-of-way to traffic in the intersection or through-street"
+      }
+    ]
+  },
+  {
+    "id": "slow_moving_vehicle",
+    "category": "Regulatory",
+    "name": "SLOW-MOVING VEHICLE",
+    "meaning": "Mounted on vehicles traveling less than 40 km/h; use extreme caution.",
+    "image": "/signs/15_slow_moving_vehicle.png",
+    "quiz": [
+      {
+        "question": "A slow-moving vehicle sign is characterized by what specific geometric shape and color layout?",
+        "options": [
+          "An orange triangle with a reflective red border",
+          "A yellow diamond with a black border",
+          "A white square with a red circle",
+          "An orange octagon with a black border"
+        ],
+        "answer": "An orange triangle with a reflective red border"
+      }
+    ]
+  },
+  {
+    "id": "no_right_turn",
+    "category": "Prohibitory",
+    "name": "NO RIGHT TURN",
+    "meaning": "Turning right is strictly prohibited at this location.",
+    "image": "/signs/16_no_right_turn.png",
+    "quiz": [
+      {
+        "question": "A white square sign shows a black arrow pointing to the right, enclosed in a red circle with a red diagonal slash through it. What does this mean?",
+        "options": [
+          "Right turn only",
+          "No right turn permitted",
+          "Keep to the right lane",
+          "A sharp right turn ahead"
+        ],
+        "answer": "No right turn permitted"
+      }
+    ]
+  },
+
+  {
+    "id": "no_right_turn_on_red",
+    "category": "Regulatory",
+    "name": "NO RIGHT TURN ON RED LIGHT",
+    "meaning": "Prohibits executing a right turn while facing a red traffic light signal; wait for a green signal.",
+    "image": "/signs/17_no_right_turn_on_red.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign shows a red circle and diagonal slash over a right-turning arrow, positioned directly above a standard vertical three-lamp traffic signal icon. What restriction does this enforce?",
+        "options": [
+          "No right turns permitted at any time",
+          "No right turn on a red light",
+          "Right turn only when the light is green",
+          "No parking near the intersection traffic signal"
+        ],
+        "answer": "No right turn on a red light"
+      }
+    ]
+  },
+  {
+    "id": "no_stopping_fire_lane",
+    "category": "Regulatory",
+    "name": "NO STOPPING FIRE LANE",
+    "meaning": "Designates a fire lane where stopping commercial vehicles or transport trucks is prohibited to maintain emergency access.",
+    "image": "/signs/18_no_stopping_fire_lane.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign features a red circle enclosing the letters 'ST' and 'P' with a diagonal slash through it. Below it, a silhouette of a transport truck is displayed. What does this mean?",
+        "options": [
+          "No trucks allowed on this route",
+          "No stopping in the designated fire lane",
+          "Dangerous goods route",
+          "Parking allowed by permit only"
+        ],
+        "answer": "No stopping in the designated fire lane"
+      }
+    ]
+  },
+  {
+    "id": "accessible_parking_only",
+    "category": "Regulatory",
+    "name": "ACCESSIBLE PARKING BY PERMIT ONLY",
+    "meaning": "Parking in the designated space is strictly prohibited unless the vehicle displays a valid accessible/disabled parking permit.",
+    "image": "/signs/19_accessible_parking_only.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign displays a red circle and slash over a black letter 'P', with a blue wheelchair graphic and the text 'BY PERMIT ONLY' underneath. What rule does this impose?",
+        "options": [
+          "Parking is permitted for everyone with a paid permit",
+          "No parking except for vehicles displaying a valid disabled person parking permit",
+          "No parking for any vehicles during peak hours",
+          "A designated wheelchair crossing area ahead"
+        ],
+        "answer": "No parking except for vehicles displaying a valid disabled person parking permit"
+      }
+    ]
+  },
+  {
+    "id": "no_parking_specific_times",
+    "category": "Regulatory",
+    "name": "NO PARKING SPECIFIC TIMES",
+    "meaning": "Prohibits parking during the specific hours and days of the week explicitly listed on the placard.",
+    "image": "/signs/20_no_parking_specific_times.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign displays a red circle and slash over a letter 'P' with specific time text like '9 AM - 4 PM' and 'MON-FRI'. What does this indicate?",
+        "options": [
+          "Parking is allowed only between 9 AM and 4 PM on weekdays",
+          "No parking during the specific times and days shown",
+          "No parking on weekends between 9 AM and 4 PM",
+          "Parking is unrestricted outside of business hours"
+        ],
+        "answer": "No parking during the specific times and days shown"
+      }
+    ]
+  },
+  {
+    "id": "no_parking_both_sides",
+    "category": "Regulatory",
+    "name": "NO PARKING BOTH SIDES",
+    "meaning": "The double-ended arrow means the parking restriction applies to both sides of the roadway from the point where the sign is posted.",
+    "image": "/signs/21_no_parking_both_sides.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign features a red circle and slash over a letter 'P' with two small horizontal arrows at the bottom pointing left and right. What does this enforce?",
+        "options": [
+          "No parking on either side of the sign",
+          "Parking is permitted on both sides with a permit",
+          "No parking during peak traffic hours",
+          "A dead end road layout begins here"
+        ],
+        "answer": "No parking on either side of the sign"
+      }
+    ]
+  },
+  {
+    "id": "passing_permitted",
+    "category": "Regulatory",
+    "name": "PASSING PERMITTED",
+    "meaning": "A green circle represents a permissive instruction; when enclosing two side-by-side cars, it indicates passing/overtaking is permitted.",
+    "image": "/signs/22_passing_permitted.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign displays a green circle enclosing a silhouette of two passenger vehicles side-by-side. What does this indicate?",
+        "options": [
+          "Passing is permitted",
+          "No passing allowed",
+          "Two-way traffic begins",
+          "Keep to the right lane"
+        ],
+        "answer": "Passing is permitted"
+      }
+    ]
+  },
+  {
+    "id": "dangerous_goods_route",
+    "category": "Regulatory",
+    "name": "DANGEROUS GOODS ROUTE",
+    "meaning": "Marks an authorized route that vehicles carrying dangerous goods are permitted and required to use.",
+    "image": "/signs/23_dangerous_goods_route.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a solid green circle enclosing a solid black diamond symbol. What does this sign indicate?",
+        "options": [
+          "High-occupancy vehicle (HOV) lane",
+          "Permissive passenger vehicle zone",
+          "Designated dangerous goods route",
+          "Construction zone begins"
+        ],
+        "answer": "Designated dangerous goods route"
+      }
+    ]
+  },
+  {
+    "id": "permissive_sign_general",
+    "category": "Regulatory",
+    "name": "PERMISSIVE SIGN INDICATOR",
+    "meaning": "A solid green circle acts as a permissive indicator, signaling that the general action or entry is allowed unless modified.",
+    "image": "/signs/24_permissive_sign_general.png",
+    "quiz": [
+      {
+        "question": "A white square sign features a solid green circle with nothing else inside it. What general classification does this sign belong to?",
+        "options": [
+          "A prohibitory sign",
+          "A warning sign",
+          "A permissive sign",
+          "An information sign"
+        ],
+        "answer": "A permissive sign"
+      }
+    ]
+  },
+  {
+    "id": "right_turn_only_permissive",
+    "category": "Regulatory",
+    "name": "RIGHT TURN ONLY (PERMISSIVE)",
+    "meaning": "Mandates that traffic in this specific lane or intersection must turn right only.",
+    "image": "/signs/25_right_turn_only_permissive.png",
+    "quiz": [
+      {
+        "question": "A square white sign shows a solid green circle enclosing a black arrow that points straight up and then bends sharply to the right. What requirement does this place on the driver?",
+        "options": [
+          "No right turns permitted",
+          "Right turn only",
+          "Right lane ends ahead",
+          "Sharp turn to the right ahead"
+        ],
+        "answer": "Right turn only"
+      }
+    ]
+  },
+  {
+    "id": "straight_through_only_permissive",
+    "category": "Regulatory",
+    "name": "STRAIGHT THROUGH ONLY",
+    "meaning": "Indicates a mandatory straight-only lane requirement where turning left or right is illegal.",
+    "image": "/signs/26_straight_through_only_permissive.png",
+    "quiz": [
+      {
+        "question": "A square white sign shows a solid green circle enclosing a black arrow pointing straight up. What mandatory movement does this dictate?",
+        "options": [
+          "Proceed straight through only; no turns permitted",
+          "No passing allowed",
+          "One-way traffic ahead",
+          "Two-way traffic begins"
+        ],
+        "answer": "Proceed straight through only; no turns permitted"
+      }
+    ]
+  },
+  {
+    "id": "left_turn_only_permissive",
+    "category": "Regulatory",
+    "name": "LEFT TURN ONLY (PERMISSIVE)",
+    "meaning": "Establishes a mandatory left-turn-only regulation for drivers in that lane.",
+    "image": "/signs/27_left_turn_only_permissive.png",
+    "quiz": [
+      {
+        "question": "A square white sign features a solid green circle enclosing a black arrow that points straight up and then bends sharply to the left. What does this indicate?",
+        "options": [
+          "Left turn only",
+          "No left turn permitted",
+          "Keep to the left lane",
+          "Sharp curve to the left ahead"
+        ],
+        "answer": "Left turn only"
+      }
+    ]
+  },
+  {
+    "id": "time_limited_parking_permissive",
+    "category": "Regulatory",
+    "name": "TIME LIMITED PARKING",
+    "meaning": "Parking is permitted for a maximum duration of 30 minutes during the specified daytime hours.",
+    "image": "/signs/28_time_limited_parking_permissive.png",
+    "quiz": [
+      {
+        "question": "A white rectangular sign features a green circle enclosing a large letter 'P' above the text '30 M' and '9 AM - 6 PM'. What does this sign permit?",
+        "options": [
+          "Parking is prohibited between 9 AM and 6 PM",
+          "Parking is permitted for a maximum duration of 30 minutes during the times shown",
+          "Only 30 vehicles are permitted to park here",
+          "Parking is reserved exclusively for permit holders"
+        ],
+        "answer": "Parking is permitted for a maximum duration of 30 minutes during the times shown"
+      }
+    ]
+  },
+  {
+    "id": "lane_control_right_turn",
+    "category": "Lane Control",
+    "name": "LANE CONTROL RIGHT TURN ONLY",
+    "meaning": "Mounted over or beside a specific lane, dictating that all traffic in that lane must execute a right turn.",
+    "image": "/signs/29_lane_control_right_turn.png",
+    "quiz": [
+      {
+        "question": "A black square lane control sign features a white arrow that bends upward and sharply to the right. What does this signify?",
+        "options": [
+          "The lane is ending ahead",
+          "The lane is designated for right turns only",
+          "A sharp curve is coming up on the highway",
+          "Keep to the right-hand lane"
+        ],
+        "answer": "The lane is designated for right turns only"
+      }
+    ]
+  },
+  {
+    "id": "lane_control_straight_through",
+    "category": "Lane Control",
+    "name": "LANE CONTROL STRAIGHT THROUGH ONLY",
+    "meaning": "Indicates that the specific lane is designated exclusively for traffic proceeding straight ahead.",
+    "image": "/signs/30_lane_control_straight_through.png",
+    "quiz": [
+      {
+        "question": "A black square lane control sign features a white arrow pointing straight up. What rule applies to drivers traveling in this lane?",
+        "options": [
+          "This lane is for through traffic only; no turns are permitted from it",
+          "The lane turns into a one-way highway",
+          "Speed limits increase in this lane",
+          "Passing is permitted on either side"
+        ],
+        "answer": "This lane is for through traffic only; no turns are permitted from it"
+      }
+    ]
+  },
+  {
+    "id": "lane_control_two_way_left_turn",
+    "category": "Lane Control",
+    "name": "TWO-WAY LEFT TURN LANE",
+    "meaning": "Designates a continuous, shared center lane reserved exclusively for vehicles from both directions making left turns.",
+    "image": "/signs/31_lane_control_two_way_left_turn.png",
+    "quiz": [
+      {
+        "question": "A black square lane control sign shows two curved white arrows pointing in opposite directions toward the left. What is this lane reserved for?",
+        "options": [
+          "U-turns only",
+          "Passing slower traffic on the left",
+          "The lane is only for two-way left turns",
+          "Diverging highway exit lanes"
+        ],
+        "answer": "The lane is only for two-way left turns"
+      }
+    ]
+  },
+  {
+    "id": "wrong_way",
+    "category": "Regulatory",
+    "name": "WRONG WAY",
+    "meaning": "Critical safety alert notifying drivers that they are traveling in the incorrect direction on a one-way street or highway ramp.",
+    "image": "/signs/32_wrong_way.png",
+    "quiz": [
+      {
+        "question": "A bright red rectangular sign reads 'WRONG WAY' in bold white text. What does this alert you to?",
+        "options": [
+          "The road is closed due to construction ahead",
+          "You have entered a lane or ramp against the legal flow of traffic; stop and reverse safely",
+          "A detour route is beginning immediately",
+          "The lane is strictly for incoming emergency vehicles"
+        ],
+        "answer": "You have entered a lane or ramp against the legal flow of traffic; stop and reverse safely"
+      }
+    ]
+  }
+]

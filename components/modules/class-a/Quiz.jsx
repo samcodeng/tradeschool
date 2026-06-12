@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function RoadSignQuiz() {
+export default function Quiz() {
   const [signs, setSigns] = useState([]);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -9,7 +9,7 @@ export default function RoadSignQuiz() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/signs_new.json")
+    fetch("/classA.json")
       .then((res) => res.json())
       .then((data) => {
         setSigns(data);
@@ -22,11 +22,11 @@ export default function RoadSignQuiz() {
   }, []);
 
   if (loading) {
-    return <div className="p-8 text-center">Loading signs...</div>;
+    return <div className="p-8 text-center">Loading questions...</div>;
   }
 
   if (signs.length === 0) {
-    return <div className="p-8 text-center">No signs found</div>;
+    return <div className="p-8 text-center">No questions found</div>;
   }
 
   const current = signs[index];
@@ -53,7 +53,7 @@ export default function RoadSignQuiz() {
 
   const score = signs.reduce((acc, sign, i) => {
     const userAnswer = answers[i];
-    const correctAnswer = sign.quiz?.[0]?.answer;
+    const correctAnswer = sign?.answer;
     return userAnswer === correctAnswer ? acc + 1 : acc;
   }, 0);
 
@@ -77,8 +77,7 @@ export default function RoadSignQuiz() {
               <div className="text-2xl font-bold text-green-600">
                 {
                   Object.keys(answers).filter(
-                    (i) =>
-                      answers[Number(i)] === signs[Number(i)].quiz?.[0]?.answer,
+                    (i) => answers[Number(i)] === signs[Number(i)]?.answer,
                   ).length
                 }
               </div>
@@ -88,8 +87,7 @@ export default function RoadSignQuiz() {
               <div className="text-2xl font-bold text-red-600">
                 {
                   Object.keys(answers).filter(
-                    (i) =>
-                      answers[Number(i)] !== signs[Number(i)].quiz?.[0]?.answer,
+                    (i) => answers[Number(i)] !== signs[Number(i)]?.answer,
                   ).length
                 }
               </div>
@@ -129,7 +127,7 @@ export default function RoadSignQuiz() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {signs.map((sign, i) => {
             const userAnswer = answers[i];
-            const correctAnswer = sign.quiz?.[0]?.answer;
+            const correctAnswer = sign?.answer;
             let borderColor = "border-gray-300";
             let bgColor = "bg-white";
 
@@ -156,19 +154,6 @@ export default function RoadSignQuiz() {
                   </span>
                 </div>
                 <div className="flex items-center justify-center w-24 h-24 mx-auto mb-3 bg-gray-100 rounded-lg">
-                  <img
-                    src={sign.image}
-                    alt={sign.name}
-                    className="object-contain w-full h-full"
-                    onError={(e) => {
-                      console.log("Image failed to load:", sign.image);
-                      e.target.style.display = "none";
-                      e.target.nextSibling.style.display = "block";
-                    }}
-                    onLoad={() => {
-                      console.log("Image loaded successfully:", sign.image);
-                    }}
-                  />
                   <div className="hidden text-xs text-center text-gray-500">
                     <div className="mb-1 text-2xl">🚦</div>
                     <div>{sign.name}</div>
@@ -227,40 +212,16 @@ export default function RoadSignQuiz() {
         </div>
 
         <div className="flex flex-col gap-6 mb-6 md:flex-row">
-          <div className="flex justify-center w-full md:w-1/3">
-            <div className="flex items-center justify-center w-48 h-48 bg-gray-100 rounded-lg">
-              <img
-                src={current.image}
-                alt={current.name}
-                className="object-contain w-full h-full"
-                onError={(e) => {
-                  console.log("Image failed to load:", current.image);
-                  e.target.style.display = "none";
-                  e.target.nextSibling.style.display = "block";
-                }}
-                onLoad={() => {
-                  console.log("Image loaded successfully:", current.image);
-                }}
-              />
-              <div className="hidden text-center text-gray-500">
-                <div className="mb-2 text-4xl">🚦</div>
-                <div className="text-sm">{current.name}</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full md:w-2/3">
+          <div className="w-full px-6">
             <p className="mb-6 text-lg text-gray-600">{current.meaning}</p>
 
-            {current.quiz?.[0] && (
+            {current && (
               <div>
-                <p className="mb-4 text-lg font-medium">
-                  {current.quiz[0].question}
-                </p>
+                <p className="mb-4 text-lg font-medium">{current.question}</p>
                 <div className="grid grid-cols-1 gap-3">
-                  {current.quiz[0].options.map((option) => {
+                  {current.options.map((option) => {
                     const isSelected = answers[index] === option;
-                    const isCorrect = option === current.quiz[0].answer;
+                    const isCorrect = option === current.answer;
                     const isAnswered = answers[index];
 
                     let buttonClass =
